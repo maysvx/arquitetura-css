@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Petshop Aumigo</title>
-        <link href="./assets/css/normalize.css" rel="stylesheet" />
-        <link href="./assets/css/reset.css" rel="stylesheet" />
-        <link href="./assets/css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <img alt="logo-petshop" src="./assets/img/logo.jpg" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="#index" id="ativo"> Início </a></li>
-                    <li><a href="#quem-somos"> Quem Somos </a></li>
-                    <li><a href="#produtos" > Produtos </a></li>
-                    <li><a href="#localizacao"> Localização </a></li>
-                    <li><a href="#contatos"> Contatos </a></li>
-                </ul>
-            </nav>
-        </header>
-    </body>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Petshop Aumigo</title>
+    <link href="./assets/css/normalize.css" rel="stylesheet" />
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/cabecalho.css" rel="stylesheet">
+    <link href="./assets/css/menu/menu-lista.css" rel="stylesheet">
+    <link href="./assets/css/menu/menu-item.css" rel="stylesheet">
+    <link href="./assets/css/menu/menu-link.css" rel="stylesheet">
+    <link href="./assets/css/banner/banner.css" rel="stylesheet">
+    <link href="./assets/css/banner/banner-img.css" rel="stylesheet">
+    <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet">
+    <link href="./assets/css/descricao/descricao.css" rel="stylesheet">
+    <link href="./assets/css/descricao/descricao-titulo.css" rel="stylesheet">
+    <link href="./assets/css/descricao/descricao-paragrafo.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img alt="logo-petshop" src="./assets/img/logo.jpg" class="logo">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a href="#index" class="menu__link ativo"> Início </a></li>
+                <li class="menu__item"><a href="#quem-somos" class="menu__link"> Quem Somos </a></li>
+                <li class="menu__item"><a href="#produtos" class="menu__link"> Produtos </a></li>
+                <li class="menu__item"><a href="#localizacao" class="menu__link"> Localização </a></li>
+                <li class="menu__item"><a href="#contatos" class="menu__link"> Contatos </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img class="banner__img" src="./assets/img/banner.jpg">
+        <h1 class="banner__titulo">O Petshop ideal para seu aumigo!</h1>
+    </section>
+
+    <section class="descricao">
+        <h2 class="descricao__titulo">Uma loja online com tudo que seu pet precisa.</h2>
+        <p class="descricao__paragrafo">Nossos serviços ajudarão a garantir o bem estar e satisfação do seu animal,
+            iremos te ajudar a divertir, alimentar, dar conforto e cuidar da higiene do seu companheiro.</p>
+    </section>
+</body>
+
 </html>
