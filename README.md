@@ -4,9 +4,13 @@ curso de arquitetura da Alura.
 # Metodologia BEM
 
 bloco
+<br>
 bloco__elemento
+<br>
 bloco--modificador
+<br>
 ou
+<br>
 bloco__elemento--modificador
 
 ## Imagens
