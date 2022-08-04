@@ -1,0 +1,13 @@
+.produto__btn{
+    background-color: #FFCE13;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+}
+
+.produto__btn:hover{
+    background: #fc7e00;
+    cursor: pointer;
+    transform: scale(1.2);
+}
