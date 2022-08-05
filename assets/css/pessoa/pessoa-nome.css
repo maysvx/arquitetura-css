@@ -1,5 +1,6 @@
-.descricao__titulo{
+.pessoa__nome{
     color: #FFCE13;
     font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 3.1875rem;
+    font-size: 2rem;
+    margin: 1rem 0;
 }
