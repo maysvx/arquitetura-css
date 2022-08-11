@@ -1,17 +1,18 @@
-.descricao__titulo{
-    color: #FFCE13;
+.rodape__titulo {
+    color: #fdfdfd;
     font-family: 'Mouse Memoirs', sans-serif;
+    text-align: center;
 }
 
 @media screen and (min-width: 0) {
-    .descricao__titulo {
+    .rodape__titulo {
         font-size: 2rem;
 
     }
 }
 
 @media screen and (min-width: 768px) {
-    .descricao__titulo {
+    .rodape__titulo {
         font-size: 3.1875rem;
 
     }

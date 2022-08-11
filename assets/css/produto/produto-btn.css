@@ -4,10 +4,11 @@
     border-radius: 5px;
     color: #fdfdfd;
     padding: 1rem;
+    
 }
 
 .produto__btn:hover{
-    background: #fc7e00;
+    background: #ff8d4b;
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }

@@ -1,4 +1,18 @@
-.descricao{
+.descricao {
     text-align: center;
-    padding: 2.5rem;
+
+}
+
+@media screen and (min-width: 0) {
+    .descricao {
+        padding: 2.5rem 1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .descricao {
+        padding: 2.5rem;
+    }
+
 }

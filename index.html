@@ -10,6 +10,7 @@
     <link href="./assets/css/normalize.css" rel="stylesheet" />
     <link href="./assets/css/reset.css" rel="stylesheet" />
     <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68dd7e1918.js" crossorigin="anonymous"></script>
     <link href="./assets/css/cabecalho.css" rel="stylesheet">
     <link href="./assets/css/menu/menu-lista.css" rel="stylesheet">
     <link href="./assets/css/menu/menu-item.css" rel="stylesheet">
@@ -35,7 +36,14 @@
     <link href="./assets/css/pessoa/pessoa-funcao.css" rel="stylesheet" />
     <link href="./assets/css/pessoa/pessoa-imagem.css" rel="stylesheet" />
     <link href="./assets/css/pessoa/pessoa-nome.css" rel="stylesheet" />
-    <link href="./assets/css/rodape.css" rel="stylesheet">
+    <link href="./assets/css/rodape/rodape.css" rel="stylesheet">
+    <link href="./assets/css/rodape/rodape-titulo.css" rel="stylesheet">
+    <link href="./assets/css/rodape/rodape-icon.css" rel="stylesheet">
+    <link href="./assets/css/localizacao.css" rel="stylesheet">
+    <link href="./assets/css/localizacao/localizacao-titulo.css" rel="stylesheet">
+    <link href="./assets/css/localizacao/localizacao-paragrafo.css" rel="stylesheet">
+    <link href="./assets/css/logo.css" rel="stylesheet">
+
 
 </head>
 
@@ -45,10 +53,10 @@
         <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu__item"><a href="#index" class="menu__link ativo"> Início </a></li>
-                <li class="menu__item"><a href="#quem-somos" class="menu__link"> Quem Somos </a></li>
-                <li class="menu__item"><a href="#produtos" class="menu__link"> Produtos </a></li>
-                <li class="menu__item"><a href="#localizacao" class="menu__link"> Localização </a></li>
-                <li class="menu__item"><a href="#contatos" class="menu__link"> Contatos </a></li>
+                <li class="menu__item"><a href="#scroll-quemSomos" class="menu__link"> Quem Somos </a></li>
+                <li class="menu__item"><a href="#scroll-produtos" class="menu__link"> Produtos </a></li>
+                <li class="menu__item"><a href="#scroll-localizacao" class="menu__link"> Localização </a></li>
+                <li class="menu__item"><a href="#scroll-contatos" class="menu__link"> Contatos </a></li>
             </ul>
         </nav>
     </header>
@@ -63,8 +71,8 @@
         <p class="descricao__paragrafo">Nossos serviços ajudarão a garantir o bem estar e satisfação do seu animal,
             iremos te ajudar a divertir, alimentar, dar conforto e cuidar da higiene do seu companheiro.</p>
     </section>
-
-    <section class="produtos">
+    
+    <section class="produtos" id="scroll-produtos">
         <div class="produto">
             <img alt="Cachorro tomando banho" class="produto__img" src="./assets/img/produtos/img-banho.jpg" />
             <div class="produto__conteudo">
@@ -75,6 +83,7 @@
             </div>
         </div>
         <div class="produto">
+            
             <img alt="Salada de kiwi" class="produto__img" src="./assets/img/produtos/img-brinquedos.jpg" />
             <div class="produto__conteudo">
                 <h4 class="produto__titulo">Brinquedos e Acessórios</h4>
@@ -126,7 +135,7 @@
         </div>
     </section>
 
-    <section class="quem-somos">
+    <section class="quem-somos" id="scroll-quemSomos">
         <h3 class="quem-somos__titulo">Quem somos</h3>
         <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
         <div class="pessoas">
@@ -148,9 +157,22 @@
         </div>
     </section>
 
-    <footer class="rodape">
-        Contatos 
-        email: email@email.com
+    <section class="localizacao" id="scroll-localizacao">
+        <h1 class="localizacao__titulo">Localização</h1>
+        <p class="localizacao__paragrafo">Localizado no coração da cidade.</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15352.195191737177!2d-47.97343896044921!3d-15.854032399999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2fb605a4521b%3A0xe1e2785475fa24cf!2sPetz!5e0!3m2!1spt-BR!2sbr!4v1659743242186!5m2!1spt-BR!2sbr"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <footer class="rodape" id="scroll-contatos">
+        <h1 class="rodape__titulo">Nos siga nas redes sociais</h1>
+        <img src="./assets/img/icons/Instagram-Icon.png" class="rodape__icon">
+        <img src="./assets/img/icons/facebook-logo.png" class="rodape__icon">
+        <img src="./assets/img/icons/twitter-logo.png" class="rodape__icon">
+        <img src="./assets/img/icons/youtube-logo.png" class="rodape__icon">
     </footer>
 </body>
 
